@@ -1,7 +1,7 @@
 import React from "react";
 import KartuFitur from "../umum/KartuFitur";
 import PilihanModelAi from '../umum/PilihanModelAI';
-import { circOut, motion } from 'framer-motion';
+import { circOut } from 'framer-motion';
 import { FiFileText, FiClipboard, FiMail, FiBarChart2, FiCalendar, FiFilePlus, FiUser, FiEdit3, FiZap } from "react-icons/fi";
 
 const semuaFiturKita = [
