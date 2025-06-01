@@ -1,35 +1,39 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 import LayoutUtama from "../komponen/tataLetak/LayoutUtama";
-import HalamanDasbor from "../halaman/HalamanDasbor";
-import HalamanScanDokumen from "../halaman/HalamanScanDokumen";
-import HalamanGeneratorPPT from "../halaman/HalamanGeneratorPPT";
-import HalamanGeneratorEmail from '../halaman/HalamanGeneratorEmail';
-import HalamanAsistenExcelAI from '../halaman/HalamanAsistenExcelAI';
-import HalamanPenjadwalanMingguan from '../halaman/HalamanPenjadwalanMingguan';
-import HalamanEkstraktorPDFkeExcel from '../halaman/HalamanEkstraktorPDFkeExcel';
-import HalamanGeneratorCatatanRapat from '../halaman/HalamanGeneratorCatatanRapat';
-import HalamanDelegatorTugas from '../halaman/HalamanDelegatorTugas';
-import Halaman404 from "../halaman/Halaman404";
+import HalamanDasbor from "../halaman/HalamanDasbor.jsx";
+import HalamanScanDokumen from "../halaman/HalamanScanDokumen.jsx";
+import HalamanGeneratorPPT from "../halaman/HalamanGeneratorPPT.jsx";
+import HalamanGeneratorEmail from '../halaman/HalamanGeneratorEmail.jsx';
+import HalamanAsistenExcelAI from '../halaman/HalamanAsistenExcelAI.jsx';
+import HalamanPenjadwalMingguan from '../halaman/HalamanPenjadwalMingguan.jsx';
+import HalamanEkstraktorPDFkeExcel from '../halaman/HalamanEkstraktorPDFkeExcel.jsx';
+import HalamanGeneratorCatatanRapat from '../halaman/HalamanGeneratorCatatanRapat.jsx';
+import HalamanDelegatorTugas from '../halaman/HalamanDelegatorTugas.jsx';
+import Halaman404 from "../halaman/Halaman404.jsx";
 
 
 const SemuaRute = () => {
+  const lokasiSaatIni = useLocation();
     return (
-    <Routes> {/* Routes ini yang ngatur mau nampilin halaman apa berdasarkan URL */}
-      <Route path="/" element={<LayoutUtama />}> {/* Semua halaman di bawah ini pake LayoutUtama */}
-        <Route index element={<HalamanDasbor />} /> {/* index itu buat halaman utama ("/") */}
-        <Route path="scan-document" element={<HalamanScanDokumen />} />
-        <Route path="powerpoint-generator" element={<HalamanGeneratorPPT />} />
-        <Route path="ai-todo-list" element={<HalamanGeneratorTodoList />} />
-        <Route path="email-generator" element={<HalamanGeneratorEmail />} />
-        <Route path="ai-excel-assistant" element={<HalamanAsistenExcelAI />} />
-        <Route path="scheduler" element={<HalamanPenjadwalMingguan />} />
-        <Route path="pdf-to-excel" element={<HalamanEkstraktorPDFkeExcel />} />
-        <Route path="meeting-notes" element={<HalamanGeneratorCatatanRapat />} />
-        <Route path="task-delegator" element={<HalamanDelegatorTugas />} />
-        <Route path="*" element={<Halaman404 />} /> {/* Kalo URL-nya gak ada, tampilkan halaman 404 */}
-      </Route>
-    </Routes>
+      <AnimatePresence mode="wait">
+        <Routes location={lokasiSaatIni} key={lokasiSaatIni.pathname}> 
+          <Route path="/" element={<LayoutUtama />}> 
+            <Route index element={<HalamanDasbor />} />
+            <Route path="scan-document" element={<HalamanScanDokumen />} />
+            <Route path="powerpoint-generator" element={<HalamanGeneratorPPT />} />
+            <Route path="ai-todo-list" element={<HalamanGeneratorTodoList />} />
+            <Route path="email-generator" element={<HalamanGeneratorEmail />} />
+            <Route path="ai-excel-assistant" element={<HalamanAsistenExcelAI />} />
+            <Route path="scheduler" element={<HalamanPenjadwalMingguan />} />
+            <Route path="pdf-to-excel" element={<HalamanEkstraktorPDFkeExcel />} />
+            <Route path="meeting-notes" element={<HalamanGeneratorCatatanRapat />} />
+            <Route path="task-delegator" element={<HalamanDelegatorTugas />} />
+            <Route path="*" element={<Halaman404 />} />
+          </Route>
+        </Routes>
+    </AnimatePresence>
   );
 };
 
