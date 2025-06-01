@@ -4,12 +4,12 @@ import LayoutUtama from "../komponen/tataLetak/LayoutUtama";
 import HalamanDasbor from "../halaman/HalamanDasbor";
 import HalamanScanDokumen from "../halaman/HalamanScanDokumen";
 import HalamanGeneratorPPT from "../halaman/HalamanGeneratorPPT";
-import HalamanGeneratorEmail from '../halaman/Hala';
-import HalamanAsistenExcelAI from '../halaman';
-import HalamanPenjadwalanMingguan from '../halaman';
-import HalamanEkstraktorPDFkeExcel from '../halaman';
-import HalamanGeneratorCatatanRapat from '../halaman';
-import HalamanDelegatorTugas from '../halaman';
+import HalamanGeneratorEmail from '../halaman/HalamanGeneratorEmail';
+import HalamanAsistenExcelAI from '../halaman/HalamanAsistenExcelAI';
+import HalamanPenjadwalanMingguan from '../halaman/HalamanPenjadwalanMingguan';
+import HalamanEkstraktorPDFkeExcel from '../halaman/HalamanEkstraktorPDFkeExcel';
+import HalamanGeneratorCatatanRapat from '../halaman/HalamanGeneratorCatatanRapat';
+import HalamanDelegatorTugas from '../halaman/HalamanDelegatorTugas';
 import Halaman404 from "../halaman/Halaman404";
 
 
