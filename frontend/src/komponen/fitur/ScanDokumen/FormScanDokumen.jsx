@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from "react";
 import { useDropzone, } from 'react-dropzone';
-import { FileUploadCloud, FiFileText, FiLoader, FiCheckCircle, FiAlertCircle, FiDownload } from '../../../konteks/KonteksModelAi';
-import { useModelKu } from '../../../servis/panggilanApi';
-import { apiScanDokumen } from '../../../servis/panggilanApi';
+import { FiUploadCloud, FiFileText, FiLoader, FiCheckCircle, FiAlertCircle, FiDownload } from 'react-icons/fi';
+import { useModelKu } from "../../../konteks/KonteksModelAi.jsx";
+import { apiScanDokumen } from '../../../servis/panggilanApi.js';
 
 const FormScanDokumen = () => {
     const [fileDipilih, setFileDipilih] = useState(null);

@@ -1,7 +1,7 @@
 import React, {useState, useCallback} from "react";
 import { useDropzone } from 'react-dropzone';
 import { FiBarChart2, FiUpload, FiType, FiLoader, FiAlertCircle, FiCheckCircle, FiFileText, FiTable } from "react-icons/fi";
-import { useModelKu } from "../../../konteks/KonteksModelAi";
+import { useModelKu } from "../../../konteks/KonteksModelAi.jsx";
 
 const AntarmukaAsistenExcel = () => {
   const [modeInput, setModeInput] = useState('text'); // 'text' atau 'file'

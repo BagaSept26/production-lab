@@ -1,7 +1,7 @@
-import React from 'react'
-import SemuaRute from './rute/SemuaRute'
-import { PenyediaTema } from './konteks/KonteksTemaGelap'
-import {PenyediaModelAi} from './konteks/KonteksModelAi'
+import React from 'react';
+import SemuaRute from './rute/SemuaRute.jsx'
+import {PenyediaTema} from './konteks/KonteksTemaGelap.jsx';
+import {PenyediaModelAi} from './konteks/KonteksModelAi.jsx';
 
 function App() {
 

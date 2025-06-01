@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FiEdit3, FiLoader, FiDownload, FiAlertCircle, FiCheckCircle, FiZap } from 'react-icons/fi';
-import { useModelKu  } from "../../../konteks/KonteksModelAi";
+import { useModelKu } from "../../../konteks/KonteksModelAi.jsx";
 //import { apiBikinPPT } from '../../../servis/panggilanApi;
 
 const FormBikinPPT = () =>{

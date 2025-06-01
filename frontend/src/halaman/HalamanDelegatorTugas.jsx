@@ -1,5 +1,5 @@
 import React from 'react';
-import AntarmukaDelegasiTugas from '../komponen/fitur/DelegatorTugas/AntarmukaDelegasiTugas';
+import AntarmukaDelegasiTugas from '../komponen/fitur/DelegatorTugas/AntarmukaDelegasiTugas.jsx';
 
 const HalamanDelegatorTugas = () => {
   return (

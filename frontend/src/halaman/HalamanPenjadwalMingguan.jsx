@@ -1,5 +1,5 @@
 import React from "react";
-import AntarmukaPenjadwal from "../komponen/fitur/PenjadwalMingguan/AntarmukaPenjadwal";
+import AntarmukaPenjadwal from "../komponen/fitur/PenjadwalMingguan/AntarmukaPenjadwal.jsx";
 
 const HalamanPenjadwalMingguan = () =>{
     return(

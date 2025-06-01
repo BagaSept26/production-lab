@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FiMic, FiFileText, FiPlay, FiLoader, FiAlertCircle, FiCheckCircle, FiEdit2, FiCopy } from 'react-icons/fi';
-import { useModelKu } from '../../../konteks/KonteksModelAi';
+import { useModelKu } from '../../../konteks/KonteksModelAi.jsx';
 
 const FormCatatanRapat = () => {
   const [transkripRapat, setTranskripRapat] = useState('');

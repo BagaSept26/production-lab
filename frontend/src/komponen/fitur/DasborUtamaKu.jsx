@@ -1,8 +1,9 @@
 import React from "react";
-import KartuFitur from "../umum/KartuFitur";
-import PilihanModelAi from '../umum/PilihanModelAI';
-import { circOut } from 'framer-motion';
-import { FiFileText, FiClipboard, FiMail, FiBarChart2, FiCalendar, FiFilePlus, FiUser, FiEdit3, FiZap } from "react-icons/fi";
+import KartuFitur from '../umum/KartuFitur.jsx';
+import PilihanModelAi from '../umum/PilihanModelAI.jsx';
+// eslint-disable-next-line no-unused-vars
+import { motion,circOut } from 'framer-motion';
+import { FiFileText, FiClipboard, FiMail, FiBarChart2, FiCalendar, FiFilePlus, FiUsers, FiEdit3, FiZap } from "react-icons/fi";
 
 const semuaFiturKita = [
     {judul: 'Scan Document', deskripsi: 'Automatically extract data from various document types (KTP, Invoice, etc.) directly into Excel.', ikon: <FiFileText />, linkKe: '/scan-document', warnaBgGradient: 'bg-gradient-to-br from-sky-500 via-cyan-500 to-teal-500'},
@@ -12,8 +13,8 @@ const semuaFiturKita = [
     {judul: 'AI Excel Assistant', deskripsi: 'Analyze data, generate insights, and perform Excel tasks without complex formulas.', ikon:<FiBarChart2/>,linkKe:'/ai-excel-assistant', warnaBgGradient: 'bg-gradient-to-br from-violet-500 via-purple-500 to-indigo-500'},
     {judul: 'Weekly Scheduler', deskripsi:'Plan your week efficiently with an AI-powered scheduler that understands your priorities.', ikon:<FiCalendar/>,linkKe: '/scheduler', warnaBgGradient: 'bg-gradient-to-br from-teal-500 via-cyan-600 to-sky-700'},
     { judul: 'PDF to Excel', deskripsi: 'Extract tabular data from PDF files and convert it into editable Excel spreadsheets.', ikon: <FiFilePlus />, linkKe: '/pdf-to-excel', warnaBgGradient: 'bg-gradient-to-br from-fuchsia-600 via-pink-600 to-rose-700' },
-  { judul: 'Meeting Notes Gen', deskripsi: 'Automatically generate concise meeting summaries, action items, and key decisions.', ikon: <FiEdit3 />, linkKe: '/meeting-notes', warnaBgGradient: 'bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700' },
-  { judul: 'Task Delegator', deskripsi: 'AI assistant to help you assign and delegate tasks effectively within your team.', ikon: <FiUsers />, linkKe: '/task-delegator', warnaBgGradient: 'bg-gradient-to-br from-slate-600 via-gray-600 to-neutral-700' },
+    { judul: 'Meeting Notes Gen', deskripsi: 'Automatically generate concise meeting summaries, action items, and key decisions.', ikon: <FiEdit3 />, linkKe: '/meeting-notes', warnaBgGradient: 'bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700' },
+    { judul: 'Task Delegator', deskripsi: 'AI assistant to help you assign and delegate tasks effectively within your team.', ikon: <FiUsers />, linkKe: '/task-delegator', warnaBgGradient: 'bg-gradient-to-br from-slate-600 via-gray-600 to-neutral-700' },
 ];
 
 const varianKontainer ={
@@ -37,9 +38,9 @@ const DasborUtamaKu = () =>{
                     <div className="flex flex-col sm:flex-row items-center sm:space-x-4">
                         <FiZap size={48} className="mb-4 sm:mb-0 text-yellow-300 animate-pulse"/>
                         <div>
-                            <h1 className="text-3xl sm:text-4xl font-extrabold mb-2 tracking-tight">Welcome to Your AI Productivity Hub!</h1>
+                            <h1 className="text-3xl sm:text-4xl font-extrabold mb-2 tracking-tight">Welcome to AI Productivity</h1>
                             <p className="text-lg text-indigo-100/90">
-                            All your AI-powered office tools i one placae. Boost your efficiency and get things done smarter.</p>
+                            All your AI-powered office tools i one place. Boost your efficiency and get things done smarter.</p>
                         </div>
                     </div>
                 </motion.div>

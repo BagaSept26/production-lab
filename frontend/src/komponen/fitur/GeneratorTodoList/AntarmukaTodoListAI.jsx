@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { FiPlusCircle, FiTrash2, FiCheckSquare, FiSquare, FiLoader, FiAletrCircle, FiList } from "react-icons/fi";
-import { useModelKu } from "../../../konteks/KonteksModelAi";
+import { FiPlusCircle, FiTrash2, FiCheckSquare, FiSquare, FiLoader, FiAlertCircle, FiList } from "react-icons/fi";
+import { useModelKu } from "../../../konteks/KonteksModelAi.jsx";
 import {  AnimatePresence } from 'framer-motion';
 
 const AntarmukaTodoListAI=()=>{

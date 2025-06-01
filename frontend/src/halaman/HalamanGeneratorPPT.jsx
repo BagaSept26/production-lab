@@ -1,5 +1,5 @@
 import React from "react";
-import FormBikinPPT from "../komponen/fitur/BikinPPT otomatis/FormBikinPPT";
+import FormBikinPPT from "../komponen/fitur/BikinPPT otomatis/FormBikinPPT.jsx";
 
 const HalamanGeneratorPPT=()=>{
     return(

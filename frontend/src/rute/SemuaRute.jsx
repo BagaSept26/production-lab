@@ -1,17 +1,19 @@
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import LayoutUtama from "../komponen/tataLetak/LayoutUtama";
-import HalamanDasbor from "../halaman/HalamanDasbor.jsx";
-import HalamanScanDokumen from "../halaman/HalamanScanDokumen.jsx";
-import HalamanGeneratorPPT from "../halaman/HalamanGeneratorPPT.jsx";
+import LayoutUtama from '../komponen/tataLetak/LayoutUtama.jsx';
+import HalamanDasbor from '../halaman/HalamanDasbor.jsx';
+import HalamanScanDokumen from '../halaman/HalamanScanDokumen.jsx';
+import HalamanGeneratorPPT from '../halaman/HalamanGeneratorPPT.jsx';
+import HalamanGeneratorTodoList from '../halaman/HalamanGeneratorTodolist.jsx';
 import HalamanGeneratorEmail from '../halaman/HalamanGeneratorEmail.jsx';
 import HalamanAsistenExcelAI from '../halaman/HalamanAsistenExcelAI.jsx';
 import HalamanPenjadwalMingguan from '../halaman/HalamanPenjadwalMingguan.jsx';
 import HalamanEkstraktorPDFkeExcel from '../halaman/HalamanEkstraktorPDFkeExcel.jsx';
 import HalamanGeneratorCatatanRapat from '../halaman/HalamanGeneratorCatatanRapat.jsx';
 import HalamanDelegatorTugas from '../halaman/HalamanDelegatorTugas.jsx';
-import Halaman404 from "../halaman/Halaman404.jsx";
+import Halaman404 from '../halaman/Halaman404.jsx';
+
 
 
 const SemuaRute = () => {

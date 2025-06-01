@@ -1,5 +1,5 @@
 import React from "react";
-import { useTemaKu } from "../../konteks/KonteksTemaGelap";
+import { useTemaKu } from "../../konteks/KonteksTemaGelap.jsx";
 import { FiSun, FiMoon} from 'react-icons/fi';
 
 const TombolModeGelap=()=>{

@@ -1,8 +1,9 @@
 import React from "react";
 import { Outlet,useLocation } from "react-router-dom";
-import NavbarAtas from "./NavbarAtas";
-import SidebarMenu from "./SidebarMenu";
-import {  AnimatePresence } from 'framer-motion';
+import NavbarAtas from './NavbarAtas.jsx';
+import SidebarMenu from './SidebarMenu.jsx';
+// eslint-disable-next-line no-unused-vars
+import {  motion,AnimatePresence } from 'framer-motion';
 
 const LayoutUtama = () => {
     const lokasi = useLocation();

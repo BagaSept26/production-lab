@@ -1,5 +1,5 @@
 import React from "react";
-import FormEkstraktorPDFExcel from "../komponen/fitur/EkstraktorPDFkeExcel/FormEkstraktorPDFExcel";
+import FormEkstraktorPDFExcel from "../komponen/fitur/EkstraktorPDFkeExcel/FormEkstraktorPDFExcel.jsx";
 
 const HalamanEkstraktorPDFkeExcel =()=>{
     return(

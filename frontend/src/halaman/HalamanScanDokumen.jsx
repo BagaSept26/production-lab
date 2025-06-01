@@ -1,5 +1,5 @@
 import React from "react";
-import FormScanDokumen from "../komponen/fitur/ScanDokumen/FormScanDokumen";
+import FormScanDokumen from "../komponen/fitur/ScanDokumen/FormScanDokumen.jsx";
 
 const HalamanScanDokumen = ()=>{
     /*const judulHalamanIni = "Scan Dokumen jadi Excel";*/

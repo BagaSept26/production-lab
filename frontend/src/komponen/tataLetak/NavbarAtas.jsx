@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-icons/fi";
-import TombolModeGelap from "../umum/TombolModeGelap";
-import { SiOpenai } from "react-icons-si"
+import { Link } from 'react-router-dom';
+import TombolModeGelap from '../umum/TombolModeGelap.jsx';
+import { SiOpenai } from "react-icons/si"
 
 const NavbarAtas = () =>{
     return(

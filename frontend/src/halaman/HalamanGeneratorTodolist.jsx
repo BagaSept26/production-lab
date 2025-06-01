@@ -1,5 +1,5 @@
 import React from "react";
-import AntarmukaTodoListAI from "../komponen/fitur/GeneratorTodoList/AntarmukaTodoListAI";
+import AntarmukaTodoListAI from "../komponen/fitur/GeneratorTodoList/AntarmukaTodoListAI.jsx";
 
 const HalamanGeneratorTodoList = () =>{
     return(

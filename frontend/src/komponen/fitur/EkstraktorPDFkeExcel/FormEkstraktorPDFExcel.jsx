@@ -1,7 +1,7 @@
 import React, {useState, useCallback} from "react";
 import {useDropzone} from 'react-dropzone';
 import { FiFilePlus, FiUploadCloud, FiLoader, FiCheckCircle, FiAlertCircle, FiDownload, FiTable } from "react-icons/fi";
-import { useModelKu } from "../../../konteks/KonteksModelAi";
+import { useModelKu } from "../../../konteks/KonteksModelAi.jsx";
 
 const FormEkstraktorPDFExcel =()=>{
     const [filePDFDipilih, setFilePDFDipilih] = useState(null);

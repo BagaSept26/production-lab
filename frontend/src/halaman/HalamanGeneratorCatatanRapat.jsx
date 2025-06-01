@@ -1,5 +1,5 @@
 import React from 'react';
-import FormCatatanRapat from '../komponen/fitur/GeneratorCatatanRapat/FormCatatanRapat';
+import FormCatatanRapat from '../komponen/fitur/GeneratorCatatanRapat/FormCatatanRapat.jsx';
 
 const HalamanGeneratorCatatanRapat = () => {
   return (

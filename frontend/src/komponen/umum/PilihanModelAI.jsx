@@ -1,5 +1,5 @@
 import React from "react";
-import { useModelKu } from "../../konteks/KonteksModelAi";
+import { useModelKu } from "../../konteks/KonteksModelAi.jsx";
 import { FiCpu, FiZap, FiLoader } from "react-icons/fi";
 
 const PilihanModelAi = () =>{
@@ -59,7 +59,7 @@ const PilihanModelAi = () =>{
             <button
                 onClick={gantiStatusModelGedeBuatDemo}
                 className="mt-3 text-xs px-3 py-1 bg-slate-200 dark:bg-slate-700 rounded-md hover:bg-slate-300 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-300">
-                    (Demo) Toggle Large Model Status
+                    (Demo) Large Model Status
                 </button>
         </div>
     );

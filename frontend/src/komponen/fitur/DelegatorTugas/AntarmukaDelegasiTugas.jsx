@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FiUsers, FiBriefcase, FiShuffle, FiLoader, FiAlertCircle, FiCheckCircle, FiUserCheck } from 'react-icons/fi';
-import { useModelKu } from '../../../konteks/KonteksModelAi';
+import { useModelKu } from '../../../konteks/KonteksModelAi.jsx';
 
 const AntarmukaDelegasiTugas = () => {
   const [deskripsiTugas, setDeskripsiTugas] = useState('');

@@ -1,5 +1,5 @@
 import React from "react";
-import AntarmukaAsistenExcel from "../komponen/fitur/AsistenExcelAI/AntarMukaAsistenExcel";
+import AntarmukaAsistenExcel from "../komponen/fitur/AsistenExcelAI/AntarMukaAsistenExcel.jsx";
 
 const HalamanAsistenExcelAI = ()=>{
     return(

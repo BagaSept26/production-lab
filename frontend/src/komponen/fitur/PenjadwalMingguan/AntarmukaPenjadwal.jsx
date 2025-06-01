@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { FiCalendar, FiClock, FiPlayCircle, FiLoader, FiAlertCircle, FiCheckCircle, FiInfo } from "react-icons/fi";
-import { useModelKu } from "../../../konteks/KonteksModelAi";
+import { useModelKu } from "../../../konteks/KonteksModelAi.jsx";
 
 const hariDalamMinggu = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 

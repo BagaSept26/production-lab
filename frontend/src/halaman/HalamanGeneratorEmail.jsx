@@ -1,5 +1,5 @@
 import React from "react";
-import FormGeneratorEmail from "../komponen/fitur/GeneratorEmail/FormGeneratorEmail";
+import FormGeneratorEmail from "../komponen/fitur/GeneratorEmail/FormGeneratorEmail.jsx";
 
 const HalamanGeneratorEmail = () =>{
     return(

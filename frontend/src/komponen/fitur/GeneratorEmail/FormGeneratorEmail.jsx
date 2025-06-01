@@ -1,6 +1,6 @@
 import React, {useState, useRef} from "react";
 import { FiMail, FiSend, FiLoader, FiAlertCircle, FiCheckCircle, FiClipboard, FiEdit2 } from "react-icons/fi";
-import { useModelKu } from "../../../konteks/KonteksModelAi";
+import { useModelKu } from "../../../konteks/KonteksModelAi.jsx";
 
 const tipeEmailOptions = [
     { value: 'follow_up', label: 'Follow-up'},
